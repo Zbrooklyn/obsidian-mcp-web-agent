@@ -1,0 +1,10 @@
+{
+  "id": "claude-browser-bridge",
+  "name": "Claude Browser Bridge",
+  "version": "0.3.0",
+  "minAppVersion": "1.5.0",
+  "description": "Lets external AI agents drive Obsidian's built-in Web viewer via Chrome DevTools Protocol. Pairs with the obsidian-bridge-mcp MCP server.",
+  "author": "Edward Shamosh",
+  "authorUrl": "https://github.com/Zbrooklyn",
+  "isDesktopOnly": true
+}
