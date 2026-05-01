@@ -1,0 +1,47 @@
+{
+  "name": "obsidian-mcp-web-agent",
+  "version": "0.4.0",
+  "description": "MCP server for Obsidian MCP Web Agent. Drives Obsidian's built-in Web viewer via Chrome DevTools Protocol. Pairs with the Obsidian plugin of the same name.",
+  "main": "index.js",
+  "bin": {
+    "obsidian-mcp-web-agent": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "obsidian",
+    "obsidian-plugin",
+    "claude",
+    "claude-code",
+    "browser-automation",
+    "cdp",
+    "chrome-devtools-protocol",
+    "ai-tools",
+    "web-agent"
+  ],
+  "author": "Edward Shamosh",
+  "license": "MIT",
+  "homepage": "https://github.com/Zbrooklyn/obsidian-mcp-web-agent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zbrooklyn/obsidian-mcp-web-agent.git",
+    "directory": "server"
+  },
+  "bugs": {
+    "url": "https://github.com/Zbrooklyn/obsidian-mcp-web-agent/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
